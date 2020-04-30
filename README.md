@@ -15,14 +15,14 @@ git clone https://github.com/aahmad4/Patatap-Clone
 
 The keyData object contains all the associations with color, animation, and sound for each key. Simply swap these around to your interest.
 ```html
-	<script type="text/paperscript" canvas="myCanvas">
-		var keyData = {
-			q: {
-				sound: new Howl({
-		  		urls: ['sounds/bubbles.mp3']
-				}),
-				color: '#1abc9c'
-			},
+<script type="text/paperscript" canvas="myCanvas">
+	var keyData = {
+		q: {
+			sound: new Howl({
+			urls: ['sounds/bubbles.mp3']
+			}),
+			color: '#1abc9c'
+		},
 ```    
 
 ## Usage
