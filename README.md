@@ -13,7 +13,7 @@ git clone https://github.com/aahmad4/Patatap-Clone
 
 ## Implementation
 
-The keyData object contains all the associations with color, animation, and sound for each key. Simply swap these around to your interest.
+The `"keyData"` object contains all the associations with color, animation, and sound for each key. Simply swap these around to your interest.
 ```html
 <script type="text/paperscript" canvas="myCanvas">
 	var keyData = {
